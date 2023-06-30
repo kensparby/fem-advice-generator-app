@@ -35,7 +35,7 @@ export default async function AdviceCard() {
         <p>{advice?.advice}</p>
       </blockquote>
       <div className={styles.imageContainer}></div>
-      <button onClick={handleClick} className={styles.button}></button>
+      <button onClick={handleClick} className={styles.button} aria-label="Get new advice"></button>
     </div>
   );
 }
