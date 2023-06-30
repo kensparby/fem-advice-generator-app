@@ -7,7 +7,7 @@ export default function Loading() {
       <blockquote className={styles.text}>
       </blockquote>
       <div className={styles.imageContainer}></div>
-      <button disabled="true" className={styles.button}></button>
+      <button disabled={true} className={styles.button} aria-label="Get new advice"></button>
     </div>
   );
 }
