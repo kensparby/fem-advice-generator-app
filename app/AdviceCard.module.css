@@ -11,13 +11,13 @@
   padding-bottom: calc(var(--pad) * 2);
   text-align: center;
   width: 95dvw;
-  max-width: 350px;
+  max-width: 22rem;
 }
 
 @media screen and (min-width: 768px) {
   .card {
     --pad: 2rem;
-    max-width: 540px;
+    max-width: 34rem;
   }
 }
 
