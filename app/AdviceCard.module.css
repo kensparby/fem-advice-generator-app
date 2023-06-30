@@ -36,15 +36,17 @@
   position: absolute;
   bottom: calc(var(--buttonPad) * -1);
   cursor: pointer;
-}
-
-.button:disabled {
-  cursor: wait;
+  transition: box-shadow 150ms ease, filter 150ms ease;
 }
 
 .button:hover {
   filter: contrast(110%) saturate(110%) brightness(1.1);
   box-shadow: 0 0 30px 0px var(--clr-p-neongreen);
+}
+
+.button:disabled {
+  filter: grayscale(1);
+  cursor: wait;
 }
 
 .title {
